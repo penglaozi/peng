@@ -11,10 +11,10 @@ public class Exercise2_13 {
 		int remainingAmount = (int)(amount * 100);
 		
 		int numberOfOneDollars = remainingAmount / 100;
-		remainingAmount %= 100; */
+		remainingAmount %= 100; 
 		String input = JOptionPane.showInputDialog("Enter an amount in double, for example 11.56: ");
 		double amount = Double.parseDouble(input);
-		System.out.println(amount);
+		System.out.println(amount);*/
 	}
 
 }
