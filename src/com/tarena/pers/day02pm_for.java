@@ -5,7 +5,7 @@ public class day02pm_for {
 	public static void main(String[] args){
 		int nCount = 0;
 		double dSum = 0.0;
-		for(nCount = 0; nCount < 100; ++nCount){
+		for(; nCount < 100; ++nCount){
 			double dTemp = 1.0 / (nCount * 2 + 1);
 			if(0 == nCount % 2)
 				dSum = dSum + dTemp;
